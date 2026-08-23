@@ -53,7 +53,7 @@ export function SiteFooter() {
             <div className="flex flex-col gap-2">
               <p className="font-medium">Resources</p>
               <a
-                href={GITHUB_URL}
+                href={"https://github.com/himanshdotrs/NovaMarket"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-foreground"
@@ -71,13 +71,13 @@ export function SiteFooter() {
                 Contract on Explorer
               </a>
               <a
-                href="https://developers.stellar.org/docs/build/smart-contracts"
+                href="https://github.com/himanshdotrs"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-foreground"
               >
                 <ExternalLink className="size-3.5" />
-                Soroban Docs
+                Developed by - Himanshu Sonwane
               </a>
             </div>
           </div>
@@ -90,7 +90,7 @@ export function SiteFooter() {
             © {new Date().getFullYear()} Nova Market — open source under MIT.
           </p>
           <a
-            href={GITHUB_URL}
+            href={"https://github.com/himanshdotrs/NovaMarket"}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 hover:text-foreground"

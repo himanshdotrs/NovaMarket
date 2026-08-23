@@ -76,7 +76,7 @@ export default function LandingPage() {
         </div>
         <div className="flex items-center gap-2">
           <Button variant="ghost" size="sm" asChild>
-            <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
+            <a href={"https://github.com/himanshdotrs/NovaMarket"} target="_blank" rel="noopener noreferrer">
               <GithubIcon className="size-4" />
               GitHub
             </a>
