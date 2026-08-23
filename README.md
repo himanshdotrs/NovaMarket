@@ -1,5 +1,16 @@
 # Nova Market
 
+**🔗 Live App:** [https://nova-market-dapp.vercel.app/](https://nova-market-dapp.vercel.app/)
+
+## 🔗 Deployed Contract
+
+| Property               | Value                                                                                                                                        |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Network**            | Stellar Testnet                                                                                                                              |
+| **Contract ID**        | `CAPTI5FMEUCVNH44T7UVRQDLMLA44FVXY4R36IZRAWQU6VLLGRQUVKTP`                                                                                   |
+| **Deploy Transaction** | `523b1e1fbc4618f8594a1cafe8b40187a6e766ff0e3b755382f4f5481c7df083`                                                                           |
+| **Explorer**           | [View contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CAPTI5FMEUCVNH44T7UVRQDLMLA44FVXY4R36IZRAWQU6VLLGRQUVKTP) |
+
 A full-stack NFT marketplace built on **Stellar Testnet**, featuring a Rust/Soroban smart contract and a Next.js frontend.
 
 Nova Market enables creators and collectors to mint, list, auction, and negotiate NFTs while enforcing **creator royalties at the smart-contract level**. Every sale path — fixed-price purchases, auctions, and offers — distributes royalties atomically.
@@ -96,17 +107,6 @@ Nova Market
     ├── deploy.ps1                  # Windows deployment
     └── deploy.sh                   # macOS/Linux deployment
 ```
-
----
-
-## 🔗 Deployed Contract
-
-| Property               | Value                                                                                                                                        |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Network**            | Stellar Testnet                                                                                                                              |
-| **Contract ID**        | `CAPTI5FMEUCVNH44T7UVRQDLMLA44FVXY4R36IZRAWQU6VLLGRQUVKTP`                                                                                   |
-| **Deploy Transaction** | `523b1e1fbc4618f8594a1cafe8b40187a6e766ff0e3b755382f4f5481c7df083`                                                                           |
-| **Explorer**           | [View contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CAPTI5FMEUCVNH44T7UVRQDLMLA44FVXY4R36IZRAWQU6VLLGRQUVKTP) |
 
 ---
 
@@ -359,7 +359,7 @@ cp .env.example .env.local
 Then configure the following variables:
 
 | Variable                            | Description                   | Default                                                    |
-| ----------------------------------- | ----------------------------- | ---------------------------------------------------------- |
+| ------------------------------------ | ----------------------------- | ---------------------------------------------------------- |
 | `NEXT_PUBLIC_CONTRACT_ID`           | Deployed marketplace contract | `CAPTI5FMEUCVNH44T7UVRQDLMLA44FVXY4R36IZRAWQU6VLLGRQUVKTP` |
 | `NEXT_PUBLIC_SOROBAN_RPC_URL`       | Soroban RPC endpoint          | `https://soroban-testnet.stellar.org`                      |
 | `NEXT_PUBLIC_HORIZON_URL`           | Horizon endpoint              | `https://horizon-testnet.stellar.org`                      |
@@ -603,6 +603,7 @@ The project is organized into four major development milestones.
 
 # 🌐 Useful Links
 
+* **Live App:** https://nova-market-dapp.vercel.app/
 * **Stellar:** https://stellar.org/
 * **Stellar Developers:** https://developers.stellar.org/
 * **Stellar CLI:** https://developers.stellar.org/docs/tools/cli/install-cli
