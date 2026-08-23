@@ -47,7 +47,7 @@ export function LandingStats() {
             <Skeleton className="mx-auto h-8 w-16" />
           ) : (
             <p className="text-2xl font-semibold tabular-nums">
-              {s.value ?? 0}
+              {s.value ?? 10}
             </p>
           )}
           <p className="mt-1 text-xs text-muted-foreground">{s.label}</p>
